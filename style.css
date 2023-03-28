@@ -1,0 +1,139 @@
+body {
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); 
+  font-family:arial;
+}
+h1 {
+  font-size: 40px;
+  text-align: center;
+  padding:15px;
+  background: -webkit-linear-gradient(rgba(2,0,36,1), rgba(9,9,121,1),rgba(9,9,121,1) 35%, rgba(0,212,255,1));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+p {
+  margin:0;
+  padding:0;
+}
+
+.container {
+width:100%;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+}
+.container2 {
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  margin-top:0;
+
+  }
+.around {
+  display:block;
+  background-color:white;
+  max-width:30vw;
+  margin:auto;
+  margin-top:10%;
+  padding:30px;
+  border:1px;
+  border-radius:20px;
+  align-self: flex-start;
+}
+
+@media (max-width: 768px) {
+  .around {
+    max-width: 60vw;
+    margin: auto;
+    margin-top:20%;
+
+    
+  }
+}
+
+
+input {
+  padding:10px;
+  border:0;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+  border-radius:0;
+  margin-right:1px;
+
+
+}
+button {
+  color:white;
+  background: -webkit-linear-gradient(rgba(2,0,36,1), rgba(9,9,121,1),rgba(9,9,121,1) 35%, rgba(0,212,255,1));
+  border:0;
+  padding:11px;
+  border-radius:0;
+  cursor: pointer;
+}
+
+
+li > button {
+
+  background:rgba(255, 0, 0, 0.705);
+  padding:0;
+  margin:2px;
+  margin-left:auto;
+  width:20px;
+  height:20px;
+}
+
+ul {
+  list-style-type:none;
+  max-width:100%;
+  padding:0;
+  margin:0;
+  margin-bottom: 0; /* Dodano */
+
+
+}
+li {
+
+  display:flex;
+  text-decoration:none;
+  cursor:pointer;
+  justify-content: space-between;
+  align-items:baseline;
+  margin:15px 0;
+  background:rgba(0, 106, 255, 0.046);
+}
+
+
+.hidden {
+  display:none;
+}
+
+.button-container {
+  display:flex;
+  justify-content: center;
+  margin-top:20px;
+  text-align: center;
+}
+#reset {
+  display: block;
+  margin:0 auto;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+footer {
+  display:relative;
+  height: 200px;
+  width: 100%;
+}
+
+footer > p {
+  color:White;
+  position: absolute;
+  padding-right:25px;
+  bottom: 0;
+  right:0;
+  height: 50px;
+  
+}
